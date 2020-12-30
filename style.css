@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  text-align: center;
+  background-color: blue;
+}
+
+.menu-tab {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tabcontent {
+  position: absolute;
+  top: 20px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}

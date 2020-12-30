@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Hyeonbeom Lee" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="body">
+      <header>This is Header</header>
+      <div class="menu-tab">
+        <button class="tablink" onclick="openPage('contact')" id="defaultOpen">
+          Contact
+        </button>
+        <button class="tablink" onclick="openPage('project')">Project</button>
+        <button class="tablink" onclick="openPage('about')">About</button>
+        <div id="contact" class="tabcontent">
+          <h3>Contact</h3>
+          <p>This is contact page</p>
+        </div>
+        <div id="project" class="tabcontent">
+          <h3>Project</h3>
+          <p>This is project page</p>
+        </div>
+        <div id="about" class="tabcontent">
+          <h3>About</h3>
+          <p>This is about page</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
