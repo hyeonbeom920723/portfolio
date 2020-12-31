@@ -5,6 +5,15 @@ const openPage = (page) => {
   }
   document.getElementById(page).style.display = "block";
 };
+document.getElementById("contact_button").addEventListener("click", () => {
+  openPage("contact");
+});
+document.getElementById("project_button").addEventListener("click", () => {
+  openPage("project");
+});
+document.getElementById("about_button").addEventListener("click", () => {
+  openPage("about");
+});
 
-// Get the element with id="defaultOpen" and click on it
-document.getElementById("defaultOpen").click();
+// contact is default page.
+document.getElementById("contact_button").click();
